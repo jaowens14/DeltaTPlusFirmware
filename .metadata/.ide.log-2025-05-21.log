@@ -1,0 +1,724 @@
+2025-05-21 06:31:14,687 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2025-05-21 06:31:14,703 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2025-05-21 06:31:14,703 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:382)
+2025-05-21 06:31:14,704 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:446)
+2025-05-21 06:31:14,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:297)
+2025-05-21 06:31:14,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2025-05-21 06:31:14,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2025-05-21 06:31:14,707 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:650)
+2025-05-21 06:31:14,707 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:625)
+2025-05-21 06:31:14,708 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4140)
+2025-05-21 06:31:14,709 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6618)
+2025-05-21 06:31:14,709 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+2025-05-21 06:31:14,710 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+2025-05-21 06:31:14,710 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-05-21 06:31:14,711 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2025-05-21 06:31:14,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-05-21 06:31:14,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2025-05-21 06:31:14,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2025-05-21 06:31:14,714 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2025-05-21 06:31:14,715 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2025-05-21 06:31:14,715 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2025-05-21 06:31:14,716 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2025-05-21 06:31:14,717 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2025-05-21 06:31:14,717 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-05-21 06:31:14,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-05-21 06:31:14,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-05-21 06:31:14,719 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-05-21 06:31:14,720 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2025-05-21 06:31:14,721 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-05-21 06:31:14,721 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-05-21 06:31:14,722 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-05-21 06:31:14,722 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-05-21 06:31:14,723 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-05-21 06:31:14,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-05-21 06:31:14,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-05-21 06:31:14,725 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-05-21 06:31:14,726 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-05-21 06:31:14,726 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-05-21 06:31:14,727 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-21 06:31:17,012 [INFO] I2cTimingTraitement:330 - 0x10B17DB5
+2025-05-21 06:31:17,085 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,087 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,089 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,090 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,093 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,178 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:17,324 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,326 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,327 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,329 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,331 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:17,436 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:35,264 [INFO] I2cTimingTraitement:330 - 0x10B17DB5
+2025-05-21 06:31:35,381 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:35,398 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:35,398 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:35,415 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:35,415 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:35,913 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:36,175 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:36,181 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:36,185 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:36,189 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:36,192 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:36,333 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:49,338 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:31:49,907 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:49,916 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:49,924 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:49,934 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:49,942 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,289 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:50,501 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,504 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,507 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,510 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,514 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:50,629 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:07,641 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:07,688 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:07,692 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:07,696 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:07,699 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:07,701 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:07,873 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:08,008 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:08,011 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:08,014 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:08,016 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:08,018 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:08,131 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:09,305 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:09,343 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,346 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,349 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,351 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,353 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,508 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:09,650 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,659 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,662 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,666 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,670 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:09,781 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:10,619 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:10,663 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,665 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,668 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,671 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,673 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,815 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:10,953 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,956 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,960 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,963 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:10,966 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:11,068 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:26,141 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:26,176 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,180 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,184 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,188 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,191 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,324 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:26,485 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,488 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,489 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,492 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,496 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:26,618 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:46,157 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:46,187 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,190 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,192 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,195 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,198 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,304 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:46,443 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,452 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,456 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,458 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,462 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:46,561 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:32:57,327 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:32:57,355 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:57,357 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:57,359 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:57,364 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:57,366 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:32:57,451 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:33:13,509 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, RF, SPI1, SYS, USART1, USB]
+2025-05-21 06:35:00,707 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 623690680 Bytes (1073741824)
+2025-05-21 06:35:01,987 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 620136672 Bytes (1073741824)
+2025-05-21 06:35:04,896 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 722917792 Bytes (1073741824)
+2025-05-21 06:35:05,184 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-21 06:35:05,184 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-21 06:35:05,184 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-21 06:35:05,184 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SEQUENCER
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: STM32_WPAN
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-21 06:35:05,185 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-21 06:35:05,186 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-21 06:35:05,186 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-21 06:35:05,186 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-21 06:35:05,186 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-21 06:35:05,186 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TINY_LPM
+2025-05-21 06:35:05,188 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-21 06:35:05,219 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,222 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,224 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,226 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,228 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,323 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-21 06:35:05,456 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-21 06:35:05,495 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp_save
+2025-05-21 06:35:05,557 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp
+2025-05-21 06:35:05,740 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-21 06:35:05,741 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-21 06:35:05,762 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-21 06:35:06,160 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-21 06:35:06,178 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp_save
+2025-05-21 06:35:06,233 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp
+2025-05-21 06:35:06,236 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp_save
+2025-05-21 06:35:06,280 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp
+2025-05-21 06:35:06,313 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-21 06:35:06,325 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h_save
+2025-05-21 06:35:06,373 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h
+2025-05-21 06:35:06,376 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h_save
+2025-05-21 06:35:06,422 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h
+2025-05-21 06:35:06,425 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h_save
+2025-05-21 06:35:06,558 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h
+2025-05-21 06:35:06,563 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h_save
+2025-05-21 06:35:06,609 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h
+2025-05-21 06:35:06,611 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h_save
+2025-05-21 06:35:06,666 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h
+2025-05-21 06:35:06,671 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h_save
+2025-05-21 06:35:06,720 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h
+2025-05-21 06:35:06,724 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h_save
+2025-05-21 06:35:06,790 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h
+2025-05-21 06:35:06,794 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h_save
+2025-05-21 06:35:06,852 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h
+2025-05-21 06:35:06,856 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c_save
+2025-05-21 06:35:06,921 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c
+2025-05-21 06:35:06,927 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c_save
+2025-05-21 06:35:06,994 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c
+2025-05-21 06:35:06,998 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c_save
+2025-05-21 06:35:07,044 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c
+2025-05-21 06:35:07,049 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c_save
+2025-05-21 06:35:07,115 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c
+2025-05-21 06:35:07,120 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c_save
+2025-05-21 06:35:07,239 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c
+2025-05-21 06:35:07,244 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h_save
+2025-05-21 06:35:07,290 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h
+2025-05-21 06:35:07,294 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h_save
+2025-05-21 06:35:07,342 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h
+2025-05-21 06:35:07,346 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h_save
+2025-05-21 06:35:07,408 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h
+2025-05-21 06:35:07,411 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h_save
+2025-05-21 06:35:07,454 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h
+2025-05-21 06:35:07,459 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\p2p_server_app.c_save
+2025-05-21 06:35:07,500 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\p2p_server_app.c
+2025-05-21 06:35:07,506 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\p2p_server_app.h_save
+2025-05-21 06:35:07,553 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\p2p_server_app.h
+2025-05-21 06:35:07,558 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c_save
+2025-05-21 06:35:07,602 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c
+2025-05-21 06:35:07,618 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-21 06:35:07,825 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-21 06:35:07,841 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-21 06:35:07,915 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-21 06:35:07,933 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-21 06:35:08,070 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-21 06:35:08,081 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-21 06:35:08,143 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-21 06:35:08,157 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-21 06:35:08,230 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-21 06:35:08,245 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-21 06:35:08,259 [INFO] ApiDbMcu:508 - Load IP Config File for I2C1
+2025-05-21 06:35:08,261 [INFO] ApiDbMcu:508 - Load IP Config File for IPCC
+2025-05-21 06:35:08,262 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-21 06:35:08,262 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-21 06:35:08,262 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-21 06:35:08,267 [INFO] ApiDbMcu:508 - Load IP Config File for RTC
+2025-05-21 06:35:08,271 [INFO] ApiDbMcu:508 - Load IP Config File for SPI1
+2025-05-21 06:35:08,288 [INFO] ApiDbMcu:508 - Load IP Config File for USART1
+2025-05-21 06:35:08,291 [INFO] ApiDbMcu:508 - Load IP Config File for USB
+2025-05-21 06:35:08,301 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-21 06:35:08,394 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-21 06:35:08,401 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-21 06:35:08,503 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-21 06:35:08,977 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 287mS.
+2025-05-21 06:35:08,982 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-21 06:35:09,052 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-21 06:35:10,376 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1394mS.
+2025-05-21 06:35:10,377 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-21 06:35:10,386 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 06:36:22,531 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-05-21 06:36:22,574 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:22,576 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:22,578 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:22,580 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:22,582 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:22,670 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, RF, SPI1, SYS, USART1, USB]
+2025-05-21 06:36:26,931 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, RF, SPI1, SYS, USART1, USB]
+2025-05-21 06:36:26,961 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:36:28,266 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:36:29,663 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 739306696 Bytes (1073741824)
+2025-05-21 06:36:30,636 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 774463216 Bytes (1073741824)
+2025-05-21 06:36:31,661 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 806471992 Bytes (1073741824)
+2025-05-21 06:36:31,803 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-21 06:36:31,804 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-21 06:36:31,805 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Initvalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Statevalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Statevalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-05-21 06:36:31,818 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : ChannelIndexvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : ChannelIndexvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:36:31,819 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:36:31,869 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-21 06:36:31,911 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-21 06:36:31,936 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp_save
+2025-05-21 06:36:31,978 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp
+2025-05-21 06:36:32,046 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-21 06:36:32,046 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:32,183 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp_save
+2025-05-21 06:36:32,224 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp
+2025-05-21 06:36:32,225 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp_save
+2025-05-21 06:36:32,272 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp
+2025-05-21 06:36:32,283 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-21 06:36:32,333 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-21 06:36:32,336 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-21 06:36:32,375 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-21 06:36:32,383 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-21 06:36:32,444 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-21 06:36:32,446 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-21 06:36:32,482 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-21 06:36:32,488 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-21 06:36:32,526 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-21 06:36:32,533 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-21 06:36:32,534 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-21 06:36:32,535 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-21 06:36:32,540 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-21 06:36:32,581 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-21 06:36:32,584 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-21 06:36:32,655 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-21 06:36:32,938 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 126mS.
+2025-05-21 06:36:32,941 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-21 06:36:33,020 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-21 06:36:33,801 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 860mS.
+2025-05-21 06:36:33,802 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 06:36:33,803 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 06:36:38,119 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:36:43,339 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 806012912 Bytes (1073741824)
+2025-05-21 06:36:44,532 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 822623136 Bytes (1073741824)
+2025-05-21 06:36:46,432 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844737888 Bytes (1073741824)
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-21 06:36:46,533 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-21 06:36:46,533 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Initvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Statevalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Statevalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : ChannelIndexvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : ChannelIndexvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:36:46,549 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:36:46,600 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-21 06:36:46,631 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-21 06:36:46,660 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp_save
+2025-05-21 06:36:46,699 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\gpio.tmp
+2025-05-21 06:36:46,757 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-21 06:36:46,757 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-21 06:36:46,772 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-21 06:36:46,893 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp_save
+2025-05-21 06:36:46,932 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma.tmp
+2025-05-21 06:36:46,934 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp_save
+2025-05-21 06:36:46,969 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\dma_GV.tmp
+2025-05-21 06:36:46,978 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-21 06:36:47,026 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-21 06:36:47,028 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-21 06:36:47,067 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-21 06:36:47,075 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-21 06:36:47,136 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-21 06:36:47,138 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-21 06:36:47,174 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-21 06:36:47,179 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-21 06:36:47,219 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-21 06:36:47,224 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-21 06:36:47,225 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-21 06:36:47,226 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-21 06:36:47,226 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-21 06:36:47,231 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-21 06:36:47,271 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-21 06:36:47,274 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-21 06:36:47,345 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-21 06:36:47,612 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 104mS.
+2025-05-21 06:36:47,615 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-21 06:36:47,665 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-21 06:36:48,175 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 560mS.
+2025-05-21 06:36:48,185 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 10mS.
+2025-05-21 06:36:48,187 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 06:37:25,498 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 665445176 Bytes (1073741824)
+2025-05-21 06:37:26,530 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 681173816 Bytes (1073741824)
+2025-05-21 06:37:27,445 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 710011704 Bytes (1073741824)
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-21 06:37:27,569 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-21 06:37:27,570 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-05-21 06:37:27,580 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Initvalue: null
+2025-05-21 06:37:27,580 [INFO] Argument:327 - 	 sub Args: 
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART1_TX
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:37:27,580 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2025-05-21 06:37:27,580 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : Statevalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : Statevalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DmaBaseAddressvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : ChannelIndexvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : ChannelIndexvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxChannelvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxChannelStatusvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxChannelStatusMaskvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxRequestGenvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:325 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:37:27,581 [INFO] Argument:335 - Argument : DMAmuxRequestGenStatusMaskvalue: null
+2025-05-21 06:37:27,624 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-21 06:37:27,664 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-21 06:37:27,687 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c_save
+2025-05-21 06:37:27,726 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c
+2025-05-21 06:37:27,728 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h_save
+2025-05-21 06:37:27,766 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h
+2025-05-21 06:37:27,822 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-21 06:37:27,822 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-21 06:37:27,837 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-21 06:37:27,957 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\dma.c_save
+2025-05-21 06:37:27,997 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\dma.c
+2025-05-21 06:37:27,999 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\dma.h_save
+2025-05-21 06:37:28,035 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\dma.h
+2025-05-21 06:37:28,041 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c_save
+2025-05-21 06:37:28,095 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c
+2025-05-21 06:37:28,098 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h_save
+2025-05-21 06:37:28,136 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h
+2025-05-21 06:37:28,140 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c_save
+2025-05-21 06:37:28,189 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c
+2025-05-21 06:37:28,191 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h_save
+2025-05-21 06:37:28,228 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h
+2025-05-21 06:37:28,233 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c_save
+2025-05-21 06:37:28,282 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c
+2025-05-21 06:37:28,284 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h_save
+2025-05-21 06:37:28,322 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h
+2025-05-21 06:37:28,327 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c_save
+2025-05-21 06:37:28,375 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c
+2025-05-21 06:37:28,377 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h_save
+2025-05-21 06:37:28,415 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h
+2025-05-21 06:37:28,419 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c_save
+2025-05-21 06:37:28,470 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c
+2025-05-21 06:37:28,472 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h_save
+2025-05-21 06:37:28,509 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h
+2025-05-21 06:37:28,514 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c_save
+2025-05-21 06:37:28,567 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c
+2025-05-21 06:37:28,568 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h_save
+2025-05-21 06:37:28,607 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h
+2025-05-21 06:37:28,613 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usart.c_save
+2025-05-21 06:37:28,663 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usart.c
+2025-05-21 06:37:28,663 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usart.h_save
+2025-05-21 06:37:28,696 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usart.h
+2025-05-21 06:37:28,713 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usb.c_save
+2025-05-21 06:37:28,763 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usb.c
+2025-05-21 06:37:28,763 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usb.h_save
+2025-05-21 06:37:28,796 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usb.h
+2025-05-21 06:37:28,796 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-21 06:37:28,846 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-21 06:37:28,846 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-21 06:37:28,896 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-21 06:37:28,896 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-21 06:37:28,946 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-21 06:37:28,946 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-21 06:37:28,996 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-21 06:37:28,996 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-21 06:37:29,040 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-21 06:37:29,046 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-21 06:37:29,046 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-21 06:37:29,046 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-21 06:37:29,046 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-21 06:37:29,058 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-21 06:37:29,096 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-21 06:37:29,096 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-21 06:37:29,161 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-21 06:37:29,345 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 83mS.
+2025-05-21 06:37:29,362 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-21 06:37:29,413 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-21 06:37:30,037 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 675mS.
+2025-05-21 06:37:30,038 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-21 06:37:30,040 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 06:38:18,921 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:38:19,264 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:38:26,444 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:38:26,510 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:38:26,577 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:00,844 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:01,004 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:06,251 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:06,411 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:25,710 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:25,847 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:30,067 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:36,379 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:39,477 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:49,895 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:39:49,982 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:07,279 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:07,305 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:07,356 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:07,503 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:10,203 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:10,281 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:42,089 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:40:42,214 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:41:31,065 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:42:00,396 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:43:02,115 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 06:43:07,119 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-21 21:02:51,206 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 759498568 Bytes (1073741824)
+2025-05-21 21:02:53,027 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 649242392 Bytes (1073741824)
+2025-05-21 21:02:54,601 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 682240904 Bytes (1073741824)
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-21 21:02:54,889 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-21 21:02:54,903 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-21 21:02:55,007 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-21 21:02:55,170 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-21 21:02:55,238 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c_save
+2025-05-21 21:02:55,321 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c
+2025-05-21 21:02:55,337 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h_save
+2025-05-21 21:02:55,388 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h
+2025-05-21 21:02:55,538 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-21 21:02:55,553 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-21 21:02:55,587 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-21 21:02:55,781 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c_save
+2025-05-21 21:02:55,889 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c
+2025-05-21 21:02:55,894 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h_save
+2025-05-21 21:02:55,947 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h
+2025-05-21 21:02:55,955 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c_save
+2025-05-21 21:02:56,041 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c
+2025-05-21 21:02:56,047 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h_save
+2025-05-21 21:02:56,124 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h
+2025-05-21 21:02:56,142 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c_save
+2025-05-21 21:02:56,226 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c
+2025-05-21 21:02:56,230 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h_save
+2025-05-21 21:02:56,281 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h
+2025-05-21 21:02:56,291 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c_save
+2025-05-21 21:02:56,359 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c
+2025-05-21 21:02:56,363 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h_save
+2025-05-21 21:02:56,415 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h
+2025-05-21 21:02:56,424 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c_save
+2025-05-21 21:02:56,500 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c
+2025-05-21 21:02:56,505 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h_save
+2025-05-21 21:02:56,561 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h
+2025-05-21 21:02:56,576 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usb.c_save
+2025-05-21 21:02:56,651 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\usb.c
+2025-05-21 21:02:56,655 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usb.h_save
+2025-05-21 21:02:56,704 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\usb.h
+2025-05-21 21:02:56,716 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-21 21:02:56,871 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-21 21:02:56,876 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-21 21:02:56,926 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-21 21:02:56,937 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-21 21:02:57,001 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-21 21:02:57,005 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-21 21:02:57,050 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-21 21:02:57,059 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-21 21:02:57,106 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-21 21:02:57,115 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-21 21:02:57,118 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-21 21:02:57,118 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-21 21:02:57,118 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-21 21:02:57,125 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-21 21:02:57,189 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-21 21:02:57,194 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-21 21:02:57,262 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-21 21:02:57,671 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 213mS.
+2025-05-21 21:02:57,675 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-21 21:02:57,777 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-21 21:02:58,727 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1052mS.
+2025-05-21 21:02:58,728 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-21 21:02:58,731 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-21 22:00:15,648 [INFO] WebApp:194 - Connection lost

@@ -1,0 +1,15 @@
+2025-05-20 05:39:07,091 [INFO] WebApp:194 - Connection lost
+2025-05-20 05:39:32,300 [INFO] WebApp:191 - Connection restablished
+2025-05-20 05:39:35,620 [INFO] WebApp:194 - Connection lost
+2025-05-20 05:39:35,730 [INFO] WebApp:191 - Connection restablished
+2025-05-20 06:03:02,990 [WARN] MainPanel:436 - Warning: This peripheral has no parameters to be configured
+2025-05-20 06:03:06,110 [WARN] MainPanel:436 - Warning: This peripheral has no parameters to be configured
+2025-05-20 06:03:06,119 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-20 06:03:27,508 [WARN] MainPanel:436 - Warning: This peripheral has no parameters to be configured
+2025-05-20 06:03:32,370 [WARN] MainPanel:436 - Warning: This peripheral has no parameters to be configured
+2025-05-20 06:03:32,375 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-20 06:04:51,478 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-20 06:04:51,549 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-20 06:05:00,835 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-20 06:05:07,162 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-05-20 22:00:13,947 [INFO] WebApp:194 - Connection lost

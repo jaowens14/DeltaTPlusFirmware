@@ -1,0 +1,21 @@
+../Core/Src/STM32_MAX31856.cpp:56:1:STM32_MAX31856::STM32_MAX31856(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:62:6:void STM32_MAX31856::csSelect()	16	static
+../Core/Src/STM32_MAX31856.cpp:65:6:void STM32_MAX31856::csDeselect()	16	static
+../Core/Src/STM32_MAX31856.cpp:86:6:bool STM32_MAX31856::begin()	16	static
+../Core/Src/STM32_MAX31856.cpp:116:6:void STM32_MAX31856::setConversionMode(max31856_conversion_mode_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:135:28:max31856_conversion_mode_t STM32_MAX31856::getConversionMode()	16	static
+../Core/Src/STM32_MAX31856.cpp:145:6:void STM32_MAX31856::setThermocoupleType(max31856_thermocoupletype_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:158:29:max31856_thermocoupletype_t STM32_MAX31856::getThermocoupleType()	24	static
+../Core/Src/STM32_MAX31856.cpp:171:9:uint8_t STM32_MAX31856::readFault()	16	static
+../Core/Src/STM32_MAX31856.cpp:183:6:void STM32_MAX31856::setColdJunctionFaultThreshholds(int8_t, int8_t)	16	static
+../Core/Src/STM32_MAX31856.cpp:197:6:void STM32_MAX31856::setNoiseFilter(max31856_noise_filter_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:215:6:void STM32_MAX31856::setTempFaultThreshholds(float, float)	32	static
+../Core/Src/STM32_MAX31856.cpp:237:6:void STM32_MAX31856::triggerOneShot()	24	static
+../Core/Src/STM32_MAX31856.cpp:255:6:bool STM32_MAX31856::conversionComplete()	16	static
+../Core/Src/STM32_MAX31856.cpp:268:7:float STM32_MAX31856::readCJTemperature()	16	static
+../Core/Src/STM32_MAX31856.cpp:279:7:float STM32_MAX31856::readThermocoupleTemperature()	24	static
+../Core/Src/STM32_MAX31856.cpp:307:9:uint8_t STM32_MAX31856::readRegister8(uint8_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:314:10:uint16_t STM32_MAX31856::readRegister16(uint8_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:325:10:uint32_t STM32_MAX31856::readRegister24(uint8_t)	24	static
+../Core/Src/STM32_MAX31856.cpp:338:6:void STM32_MAX31856::readRegisterN(uint8_t, uint8_t*, uint8_t)	32	static
+../Core/Src/STM32_MAX31856.cpp:351:6:void STM32_MAX31856::writeRegister8(uint8_t, uint8_t)	24	static

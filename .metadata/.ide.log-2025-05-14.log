@@ -1,0 +1,15 @@
+2025-05-21 04:00:48,874 [INFO] WebApp:191 - Connection restablished
+2025-05-21 04:00:51,817 [INFO] WebApp:194 - Connection lost
+2025-05-21 04:00:51,921 [INFO] WebApp:191 - Connection restablished
+2025-05-21 06:31:03,384 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,389 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,394 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,400 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,412 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,570 [WARN] IP:2250 - SERVICE1_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,572 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,573 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,575 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,577 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-21 06:31:03,666 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-21 06:31:03,718 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
