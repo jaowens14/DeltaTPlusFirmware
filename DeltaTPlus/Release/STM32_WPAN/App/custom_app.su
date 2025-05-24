@@ -1,0 +1,4 @@
+../STM32_WPAN/App/custom_app.c:89:6:Custom_STM_App_Notification	0	static
+../STM32_WPAN/App/custom_app.c:143:6:Custom_APP_Notification	0	static
+../STM32_WPAN/App/custom_app.c:180:6:Custom_APP_Init	0	static
+../STM32_WPAN/App/custom_app.c:199:13:Custom_Switch_c_Update_Char	0	static

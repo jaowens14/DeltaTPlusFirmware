@@ -276,7 +276,7 @@ float STM32_MAX31856::readCJTemperature(void) {
     @returns Floating point temperature in Celsius
 */
 /**************************************************************************/
-float STM32_MAX31856::readThermocoupleTemperature(void) {
+int32_t STM32_MAX31856::readThermocoupleTemperature(void) {
 
   // for one-shot, make it happen
   if (conversionMode == MAX31856_ONESHOT) {
@@ -299,7 +299,9 @@ float STM32_MAX31856::readThermocoupleTemperature(void) {
 
   temp24 >>= 5; // bottom 5 bits are unused
 
-  return temp24 * 0.0078125;
+  //return temp24 * 0.0078125;
+  return temp24;
+
 }
 
 /**********************************************/

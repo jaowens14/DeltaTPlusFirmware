@@ -1,0 +1,224 @@
+#include "stm32_max31856.h"
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <math.h>
+#include <spi.h>
+
+
+// ---- Initialization ----
+void STM32_MAX31856_Init(STM32_MAX31856 *dev, SPI_HandleTypeDef *hspi, GPIO_TypeDef *cs_port, uint16_t cs_pin)
+{
+    dev->hspi = hspi;
+    dev->cs_port = cs_port;
+    dev->cs_pin = cs_pin;
+    dev->initialized = false;
+    dev->conversionMode = MAX31856_ONESHOT;
+}
+
+static void csSelect(STM32_MAX31856 *dev)
+{
+    HAL_GPIO_WritePin(dev->cs_port, dev->cs_pin, GPIO_PIN_RESET);
+}
+static void csDeselect(STM32_MAX31856 *dev)
+{
+    HAL_GPIO_WritePin(dev->cs_port, dev->cs_pin, GPIO_PIN_SET);
+}
+
+// ---- Begin ----
+bool STM32_MAX31856_Begin(STM32_MAX31856 *dev)
+{
+    dev->initialized = true;
+    if (!dev->initialized)
+        return false;
+
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_MASK_REG, 0x0);
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CR0_REG, MAX31856_CR0_OCFAULT0);
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CJTO_REG, 0x0);
+
+    STM32_MAX31856_SetThermocoupleType(dev, MAX31856_TCTYPE_K);
+    STM32_MAX31856_SetConversionMode(dev, MAX31856_ONESHOT);
+
+    return true;
+}
+
+// ---- Conversion Mode ----
+void STM32_MAX31856_SetConversionMode(STM32_MAX31856 *dev, max31856_conversion_mode_t mode)
+{
+    dev->conversionMode = mode;
+    uint8_t t = STM32_MAX31856_ReadRegister8(dev, MAX31856_CR0_REG);
+    if (mode == MAX31856_CONTINUOUS) {
+        t |= MAX31856_CR0_AUTOCONVERT;
+        t &= ~MAX31856_CR0_1SHOT;
+    } else {
+        t &= ~MAX31856_CR0_AUTOCONVERT;
+        t |= MAX31856_CR0_1SHOT;
+    }
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CR0_REG, t);
+}
+
+max31856_conversion_mode_t STM32_MAX31856_GetConversionMode(STM32_MAX31856 *dev)
+{
+    return dev->conversionMode;
+}
+
+// ---- Thermocouple Type ----
+void STM32_MAX31856_SetThermocoupleType(STM32_MAX31856 *dev, max31856_thermocoupletype_t type)
+{
+    uint8_t t = STM32_MAX31856_ReadRegister8(dev, MAX31856_CR1_REG);
+    t &= 0xF0;
+    t |= (uint8_t)type & 0x0F;
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CR1_REG, t);
+}
+
+max31856_thermocoupletype_t STM32_MAX31856_GetThermocoupleType(STM32_MAX31856 *dev)
+{
+    uint8_t t = STM32_MAX31856_ReadRegister8(dev, MAX31856_CR1_REG);
+    t &= 0x0F;
+    return (max31856_thermocoupletype_t)t;
+}
+
+// ---- Faults ----
+uint8_t STM32_MAX31856_ReadFault(STM32_MAX31856 *dev)
+{
+    return STM32_MAX31856_ReadRegister8(dev, MAX31856_SR_REG);
+}
+
+void STM32_MAX31856_SetColdJunctionFaultThresholds(STM32_MAX31856 *dev, int8_t low, int8_t high)
+{
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CJLF_REG, (uint8_t)low);
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CJHF_REG, (uint8_t)high);
+}
+
+void STM32_MAX31856_SetNoiseFilter(STM32_MAX31856 *dev, max31856_noise_filter_t noiseFilter)
+{
+    uint8_t t = STM32_MAX31856_ReadRegister8(dev, MAX31856_CR0_REG);
+    if (noiseFilter == MAX31856_NOISE_FILTER_50HZ) {
+        t |= 0x01;
+    } else {
+        t &= 0xfe;
+    }
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CR0_REG, t);
+}
+
+void STM32_MAX31856_SetTempFaultThresholds(STM32_MAX31856 *dev, float flow, float fhigh)
+{
+    int16_t low, high;
+    low = (int16_t)(flow * 16);
+    high = (int16_t)(fhigh * 16);
+
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_LTHFTH_REG, (uint8_t)(high >> 8));
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_LTHFTL_REG, (uint8_t)high);
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_LTLFTH_REG, (uint8_t)(low >> 8));
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_LTLFTL_REG, (uint8_t)low);
+}
+
+// ---- One Shot ----
+void STM32_MAX31856_TriggerOneShot(STM32_MAX31856 *dev)
+{
+    if (dev->conversionMode == MAX31856_CONTINUOUS)
+        return;
+
+    uint8_t t = STM32_MAX31856_ReadRegister8(dev, MAX31856_CR0_REG);
+    t &= ~MAX31856_CR0_AUTOCONVERT;
+    t |= MAX31856_CR0_1SHOT;
+    STM32_MAX31856_WriteRegister8(dev, MAX31856_CR0_REG, t);
+}
+
+bool STM32_MAX31856_ConversionComplete(STM32_MAX31856 *dev)
+{
+    if (dev->conversionMode == MAX31856_CONTINUOUS)
+        return true;
+    return !(STM32_MAX31856_ReadRegister8(dev, MAX31856_CR0_REG) & MAX31856_CR0_1SHOT);
+}
+
+// ---- Temperature Reading ----
+float STM32_MAX31856_ReadCJTemperature(STM32_MAX31856 *dev)
+{
+    return STM32_MAX31856_ReadRegister16(dev, MAX31856_CJTH_REG) / 256.0f;
+}
+
+float STM32_MAX31856_ReadThermocoupleTemperature(STM32_MAX31856 *dev)
+{
+    if (dev->conversionMode == MAX31856_ONESHOT) {
+        STM32_MAX31856_TriggerOneShot(dev);
+        uint32_t start = HAL_GetTick();
+        while (!STM32_MAX31856_ConversionComplete(dev)) {
+            if (HAL_GetTick() - start > 250)
+                return 0.0f;
+            HAL_Delay(10);
+        }
+    }
+
+    int32_t temp24 = STM32_MAX31856_ReadRegister24(dev, MAX31856_LTCBH_REG);
+    if (temp24 & 0x800000) {
+        temp24 |= 0xFF000000; // sign extension
+    }
+    temp24 >>= 5;
+    return temp24 * 0.0078125f;
+}
+
+// ---- Register Read/Write ----
+uint8_t STM32_MAX31856_ReadRegister8(STM32_MAX31856 *dev, uint8_t addr)
+{
+    uint8_t ret = 0;
+    STM32_MAX31856_ReadRegisterN(dev, addr, &ret, 1);
+    return ret;
+}
+
+uint16_t STM32_MAX31856_ReadRegister16(STM32_MAX31856 *dev, uint8_t addr)
+{
+    uint8_t buffer[2] = {0, 0};
+    STM32_MAX31856_ReadRegisterN(dev, addr, buffer, 2);
+
+    uint16_t ret = buffer[0];
+    ret <<= 8;
+    ret |= buffer[1];
+
+    return ret;
+}
+
+uint32_t STM32_MAX31856_ReadRegister24(STM32_MAX31856 *dev, uint8_t addr)
+{
+    uint8_t buffer[3] = {0, 0, 0};
+    STM32_MAX31856_ReadRegisterN(dev, addr, buffer, 3);
+
+    uint32_t ret = buffer[0];
+    ret <<= 8;
+    ret |= buffer[1];
+    ret <<= 8;
+    ret |= buffer[2];
+
+    return ret;
+}
+
+void STM32_MAX31856_ReadRegisterN(STM32_MAX31856 *dev, uint8_t addr, uint8_t *buffer, uint8_t n)
+{
+    addr &= 0x7F; // MSB=0 for read
+    uint8_t tx[1 + n];
+    uint8_t rx[1 + n];
+
+    tx[0] = addr;
+    for (uint8_t i = 1; i < 1 + n; i++) {
+        tx[i] = 0x00;
+    }
+
+    csSelect(dev);
+    HAL_SPI_TransmitReceive(dev->hspi, tx, rx, 1 + n, 100);
+    csDeselect(dev);
+
+    for (uint8_t i = 0; i < n; i++) {
+        buffer[i] = rx[i + 1];
+    }
+}
+
+void STM32_MAX31856_WriteRegister8(STM32_MAX31856 *dev, uint8_t addr, uint8_t data)
+{
+    addr |= 0x80; // MSB=1 for write
+
+    uint8_t buffer[2] = {addr, data};
+
+    csSelect(dev);
+    HAL_SPI_Transmit(dev->hspi, buffer, 2, 100);
+    csDeselect(dev);
+}

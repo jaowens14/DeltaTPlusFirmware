@@ -1,0 +1,21 @@
+../Core/Src/STM32_MAX31856.cpp:56:1:STM32_MAX31856::STM32_MAX31856(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	1
+../Core/Src/STM32_MAX31856.cpp:62:6:void STM32_MAX31856::csSelect()	1
+../Core/Src/STM32_MAX31856.cpp:65:6:void STM32_MAX31856::csDeselect()	1
+../Core/Src/STM32_MAX31856.cpp:135:28:max31856_conversion_mode_t STM32_MAX31856::getConversionMode()	1
+../Core/Src/STM32_MAX31856.cpp:340:6:void STM32_MAX31856::readRegisterN(uint8_t, uint8_t*, uint8_t)	3
+../Core/Src/STM32_MAX31856.cpp:309:9:uint8_t STM32_MAX31856::readRegister8(uint8_t)	1
+../Core/Src/STM32_MAX31856.cpp:158:29:max31856_thermocoupletype_t STM32_MAX31856::getThermocoupleType()	1
+../Core/Src/STM32_MAX31856.cpp:171:9:uint8_t STM32_MAX31856::readFault()	1
+../Core/Src/STM32_MAX31856.cpp:255:6:bool STM32_MAX31856::conversionComplete()	2
+../Core/Src/STM32_MAX31856.cpp:316:10:uint16_t STM32_MAX31856::readRegister16(uint8_t)	1
+../Core/Src/STM32_MAX31856.cpp:268:7:float STM32_MAX31856::readCJTemperature()	1
+../Core/Src/STM32_MAX31856.cpp:327:10:uint32_t STM32_MAX31856::readRegister24(uint8_t)	1
+../Core/Src/STM32_MAX31856.cpp:362:6:void STM32_MAX31856::writeRegister8(uint8_t, uint8_t)	1
+../Core/Src/STM32_MAX31856.cpp:116:6:void STM32_MAX31856::setConversionMode(max31856_conversion_mode_t)	2
+../Core/Src/STM32_MAX31856.cpp:145:6:void STM32_MAX31856::setThermocoupleType(max31856_thermocoupletype_t)	1
+../Core/Src/STM32_MAX31856.cpp:86:6:bool STM32_MAX31856::begin()	1
+../Core/Src/STM32_MAX31856.cpp:183:6:void STM32_MAX31856::setColdJunctionFaultThreshholds(int8_t, int8_t)	1
+../Core/Src/STM32_MAX31856.cpp:197:6:void STM32_MAX31856::setNoiseFilter(max31856_noise_filter_t)	2
+../Core/Src/STM32_MAX31856.cpp:215:6:void STM32_MAX31856::setTempFaultThreshholds(float, float)	1
+../Core/Src/STM32_MAX31856.cpp:237:6:void STM32_MAX31856::triggerOneShot()	2
+../Core/Src/STM32_MAX31856.cpp:279:9:int32_t STM32_MAX31856::readThermocoupleTemperature()	5

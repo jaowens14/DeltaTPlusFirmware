@@ -18,18 +18,21 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "i2c.h"
 #include "ipcc.h"
 #include "memorymap.h"
 #include "rf.h"
 #include "rtc.h"
 #include "spi.h"
-#include "usb.h"
+#include "usb_device.h"
 #include "gpio.h"
 #include "STM32_MAX31856.h"
+#include "usbd_cdc_if.h"
+#include "string.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,12 +53,13 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-//const uint8_t MAX31856_SR_REG = 0x0F;
-//uint8_t addr = MAX31856_SR_REG;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
+extern "C" {
 void SystemClock_Config(void);
+}
 void PeriphCommonClock_Config(void);
 /* USER CODE BEGIN PFP */
 
@@ -63,6 +67,7 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
 
 /* USER CODE END 0 */
 
@@ -74,18 +79,18 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-//char uart_buf[50];
-//int uart_buf_len;
-//char spi_buf[2] = {0};
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
+  /* Config code for STM32_WPAN (HSE Tuning must be done before system clock configuration) */
+  MX_APPE_Config();
 
   /* USER CODE BEGIN Init */
-
+  //printf("another hello\n");
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -103,80 +108,97 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_I2C1_Init();
-  MX_USB_PCD_Init();
   MX_RTC_Init();
   MX_SPI1_Init();
+  MX_USB_Device_Init();
   MX_RF_Init();
   /* USER CODE BEGIN 2 */
+  //PA9 temp1 data ready
+    //PA4 temp1 cs
+    STM32_MAX31856 temp1 = STM32_MAX31856(&hspi1, GPIOA, GPIO_PIN_4);
+    STM32_MAX31856 temp2 = STM32_MAX31856(&hspi1, GPIOA, GPIO_PIN_8);
 
-  STM32_MAX31856 max31856(&hspi1, GPIOA, GPIO_PIN_4);
+    if(!temp1.begin()){
+  	  // breakpoint
+  	  while(1) HAL_Delay(100);
+    }
 
-  max31856.begin();
+    if(!temp2.begin()){
+  	  // breakpoint
+  	  while(1) HAL_Delay(100);
+    }
 
-  uint8_t fault = max31856.readFault();
+    temp1.setThermocoupleType(MAX31856_TCTYPE_K);
+    temp2.setThermocoupleType(MAX31856_TCTYPE_K);
+    temp2.getThermocoupleType();
+    uint8_t type = 0;
+    switch (temp1.getThermocoupleType())
+    {
+    case MAX31856_TCTYPE_B:
+        type = 1;
+        break;
+    case MAX31856_TCTYPE_E:
+        type = 2;
+        break;
+    case MAX31856_TCTYPE_J:
+        type = 3;
+        break;
+    case MAX31856_TCTYPE_K:
+        type = 4;
+        break;
+    case MAX31856_TCTYPE_N:
+        type = 5;
+        break;
+    case MAX31856_TCTYPE_R:
+        type = 6;
+        break;
+    case MAX31856_TCTYPE_S:
+        type = 7;
+        break;
+    case MAX31856_TCTYPE_T:
+        type = 8;
+        break;
+    case MAX31856_VMODE_G8:
+        type = 9;
+        break;
+    case MAX31856_VMODE_G32:
+        type = 10;
+        break;
+    default:
+        type = 11;
+        break;
+    }
 
-  int8_t err = 0;
+    printf("hello world\n");
 
-  if (fault) {
-    if (fault & MAX31856_FAULT_CJRANGE) err = -1;
-    if (fault & MAX31856_FAULT_TCRANGE) err = -2;
-    if (fault & MAX31856_FAULT_CJHIGH)  err = -3;
-    if (fault & MAX31856_FAULT_CJLOW)   err = -4;
-    if (fault & MAX31856_FAULT_TCHIGH)  err = -5;
-    if (fault & MAX31856_FAULT_TCLOW)   err = -6;
-    if (fault & MAX31856_FAULT_OVUV)    err = -7;
-    if (fault & MAX31856_FAULT_OPEN)    err = -8;
-  }
-
-  uint8_t type = max31856.getThermocoupleType();
-  // assert on any fault
-  //writeRegister8(MAX31856_MASK_REG, 0x0);
-
-  // enable open circuit fault detection
-  //writeRegister8(MAX31856_CR0_REG, MAX31856_CR0_OCFAULT0);
-
-  // set cold junction temperature offset to zero
-  //writeRegister8(MAX31856_CJTO_REG, 0x0);
-
-  // set Type K by default
-  //setThermocoupleType(MAX31856_TCTYPE_K);
-
-  // set One-Shot conversion mode
-  //setConversionMode(MAX31856_ONESHOT);
-
-  //uint8_t cr0_addr = 0x80; // 0x00 | 0x80 (write bit set)
-  //uint8_t cr0_val = 0x40;  // One-shot bit (D6) set
-
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET); // CS low
-  //HAL_SPI_Transmit(&hspi1, &cr0_addr, 1, 100); // Send address
-  //HAL_SPI_Transmit(&hspi1, &cr0_val, 1, 100);  // Send value
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);   // CS high
-
-  //HAL_Delay(250); // Wait for conversion (datasheet: up to 156ms)
-
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); // high
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET); // LOW
-  //addr = addr & 0x7F; // from adafruit lib
-  //HAL_SPI_Transmit(&hspi1, (uint8_t *)&addr, 1, 100); // write
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); // high
-  //HAL_SPI_TransmitReceive(&hspi1, (uint8_t *)&addr, (uint8_t *)spi_buf, 2, 100);
-
-
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); // high
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET); // LOW
-  //HAL_SPI_Receive(&hspi1, (uint8_t *)spi_buf, 1, 100); // read
-  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); // high
-
-
+    temp1.setConversionMode(MAX31856_CONTINUOUS);
+    temp2.setConversionMode(MAX31856_CONTINUOUS);
 
   /* USER CODE END 2 */
 
+  /* Init code for STM32_WPAN */
+  MX_APPE_Init();
+  //char msg[] = ".\r\n";
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
+
+    while (1)
+    {
+
+  	  HAL_Delay(100);
+  	char buf[64];
+  	int32_t t1 = temp1.readThermocoupleTemperature();
+  	int32_t t2 = temp2.readThermocoupleTemperature();
+  	snprintf(buf, sizeof(buf), "T1: %ld C, T2: %ld C\r\n", t1, t2);
+  	CDC_Transmit_FS((uint8_t*)buf, strlen(buf));
+
+
+
+      /* USER CODE END WHILE */
+    MX_APPE_Process();
 
     /* USER CODE BEGIN 3 */
   }
@@ -187,6 +209,7 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
+extern "C" {
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
@@ -247,6 +270,7 @@ void SystemClock_Config(void)
   /** Enable MSI Auto calibration
   */
   HAL_RCCEx_EnableMSIPLLMode();
+	}
 }
 
 /**
@@ -256,6 +280,8 @@ void SystemClock_Config(void)
 void PeriphCommonClock_Config(void)
 {
   RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = {0};
+
+  LL_HSEM_1StepLock(HSEM, 5);
 
   /** Initializes the peripherals clock
   */
