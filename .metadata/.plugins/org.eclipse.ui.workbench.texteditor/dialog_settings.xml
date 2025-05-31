@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="LCD_WriteDisplayData"/>
+		<item value="HAL_MAX_DELAY"/>
+		<item value="LCD_WriteDataMultiple"/>
+		<item value="ota"/>
+		<item value="memory"/>
+		<item value="AD_TYPE_MANUFACTURER_SPECIFIC_DATA"/>
+		<item value="AD_TYPE_COMPLETE_LOCAL_NAME"/>
+		<item value="a_AdvData"/>
+		<item value="manufacturer"/>
+		<item value="SystemCl"/>
+		<item value="SystemClock_Config"/>
+		<item value="switch"/>
+		<item value="SystemClock"/>
+		<item value="_hspi"/>
+		<item value="float"/>
+	</list>
+	<list key="replacehistory">
+		<item value="100"/>
+	</list>
+</section>

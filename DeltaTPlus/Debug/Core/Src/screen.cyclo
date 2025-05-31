@@ -1,0 +1,13 @@
+../Core/Src/screen.c:21:6:LCD_WriteCommand	1
+../Core/Src/screen.c:33:6:LCD_WriteData	1
+../Core/Src/screen.c:46:6:LCD_WriteDataMultiple	1
+../Core/Src/screen.c:59:6:LCD_WriteDisplayData	1
+../Core/Src/screen.c:71:6:LCD_Init	1
+../Core/Src/screen.c:199:6:LCD_EnterSleep	1
+../Core/Src/screen.c:209:6:LCD_ExitSleep	1
+../Core/Src/screen.c:223:6:LCD_SetWindow	1
+../Core/Src/screen.c:244:6:LCD_FillScreen	2
+../Core/Src/screen.c:266:6:LCD_DrawPixel	3
+../Core/Src/screen.c:282:6:LCD_FillRect	6
+../Core/Src/screen.c:311:10:LCD_RGB565	1
+../Core/Src/screen.c:317:6:LCD_BasicCommTest	1

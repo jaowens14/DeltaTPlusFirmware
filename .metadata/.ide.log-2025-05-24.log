@@ -1,0 +1,491 @@
+2025-05-27 04:00:52,619 [INFO] WebApp:191 - Connection restablished
+2025-05-27 04:00:55,556 [INFO] WebApp:194 - Connection lost
+2025-05-27 04:00:55,689 [INFO] WebApp:191 - Connection restablished
+2025-05-27 06:08:37,607 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-27 06:08:41,540 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-27 06:08:43,610 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 920757984 Bytes (1073741824)
+2025-05-27 06:08:45,263 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 937373400 Bytes (1073741824)
+2025-05-27 06:08:47,526 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 991899352 Bytes (1073741824)
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SEQUENCER
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: STM32_WPAN
+2025-05-27 06:08:47,849 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8WB5
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_Device
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-27 06:08:47,850 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-27 06:08:47,851 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-27 06:08:47,851 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-27 06:08:47,851 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-27 06:08:47,851 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TINY_LPM
+2025-05-27 06:08:47,852 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-27 06:08:47,897 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:08:47,900 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:08:47,902 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:08:47,905 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:08:48,059 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-27 06:08:48,383 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-27 06:08:48,528 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c_save
+2025-05-27 06:08:48,695 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c
+2025-05-27 06:08:48,701 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h_save
+2025-05-27 06:08:48,795 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h
+2025-05-27 06:08:48,897 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp_save
+2025-05-27 06:08:48,991 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp
+2025-05-27 06:08:48,994 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp_save
+2025-05-27 06:08:49,076 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp
+2025-05-27 06:08:49,083 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp_save
+2025-05-27 06:08:49,185 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp
+2025-05-27 06:08:49,188 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp_save
+2025-05-27 06:08:49,319 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp
+2025-05-27 06:08:49,447 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-27 06:08:49,448 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-27 06:08:49,483 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-27 06:08:49,850 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:08:49,883 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:08:49,897 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c_save
+2025-05-27 06:08:50,073 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c
+2025-05-27 06:08:50,081 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h_save
+2025-05-27 06:08:50,169 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h
+2025-05-27 06:08:50,180 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c_save
+2025-05-27 06:08:50,283 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c
+2025-05-27 06:08:50,286 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h_save
+2025-05-27 06:08:50,371 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h
+2025-05-27 06:08:50,384 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c_save
+2025-05-27 06:08:50,461 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c
+2025-05-27 06:08:50,466 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h_save
+2025-05-27 06:08:50,516 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h
+2025-05-27 06:08:50,523 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c_save
+2025-05-27 06:08:50,588 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c
+2025-05-27 06:08:50,592 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h_save
+2025-05-27 06:08:50,642 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h
+2025-05-27 06:08:50,651 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c_save
+2025-05-27 06:08:50,715 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c
+2025-05-27 06:08:50,718 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h_save
+2025-05-27 06:08:50,767 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h
+2025-05-27 06:08:50,774 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c_save
+2025-05-27 06:08:50,838 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c
+2025-05-27 06:08:50,841 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h_save
+2025-05-27 06:08:50,889 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h
+2025-05-27 06:08:50,908 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:08:50,932 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h_save
+2025-05-27 06:08:50,980 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h
+2025-05-27 06:08:50,984 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h_save
+2025-05-27 06:08:51,028 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h
+2025-05-27 06:08:51,034 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h_save
+2025-05-27 06:08:51,145 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h
+2025-05-27 06:08:51,153 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h_save
+2025-05-27 06:08:51,202 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h
+2025-05-27 06:08:51,206 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h_save
+2025-05-27 06:08:51,271 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h
+2025-05-27 06:08:51,275 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h_save
+2025-05-27 06:08:51,323 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h
+2025-05-27 06:08:51,326 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h_save
+2025-05-27 06:08:51,372 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h
+2025-05-27 06:08:51,377 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h_save
+2025-05-27 06:08:51,421 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h
+2025-05-27 06:08:51,427 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c_save
+2025-05-27 06:08:51,482 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c
+2025-05-27 06:08:51,487 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c_save
+2025-05-27 06:08:51,541 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c
+2025-05-27 06:08:51,547 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c_save
+2025-05-27 06:08:51,595 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c
+2025-05-27 06:08:51,603 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c_save
+2025-05-27 06:08:51,651 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c
+2025-05-27 06:08:51,656 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c_save
+2025-05-27 06:08:51,807 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c
+2025-05-27 06:08:51,817 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h_save
+2025-05-27 06:08:51,864 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h
+2025-05-27 06:08:51,868 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h_save
+2025-05-27 06:08:51,919 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h
+2025-05-27 06:08:51,924 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h_save
+2025-05-27 06:08:51,972 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h
+2025-05-27 06:08:51,977 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h_save
+2025-05-27 06:08:52,025 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h
+2025-05-27 06:08:52,031 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h_save
+2025-05-27 06:08:52,075 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h
+2025-05-27 06:08:52,084 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c_save
+2025-05-27 06:08:53,201 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c
+2025-05-27 06:08:53,207 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h_save
+2025-05-27 06:08:53,365 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h
+2025-05-27 06:08:53,370 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c_save
+2025-05-27 06:08:53,534 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c
+2025-05-27 06:08:53,538 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h_save
+2025-05-27 06:08:53,580 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h
+2025-05-27 06:08:53,585 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c_save
+2025-05-27 06:08:53,637 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c
+2025-05-27 06:08:53,648 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\tim.c_save
+2025-05-27 06:08:53,711 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\tim.c
+2025-05-27 06:08:53,716 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\tim.h_save
+2025-05-27 06:08:53,759 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\tim.h
+2025-05-27 06:08:53,768 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:08:53,774 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c_save
+2025-05-27 06:08:53,836 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c
+2025-05-27 06:08:53,836 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h_save
+2025-05-27 06:08:53,881 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h
+2025-05-27 06:08:53,885 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h_save
+2025-05-27 06:08:53,931 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h
+2025-05-27 06:08:53,937 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c_save
+2025-05-27 06:08:53,989 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c
+2025-05-27 06:08:53,994 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h_save
+2025-05-27 06:08:54,039 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h
+2025-05-27 06:08:54,043 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c_save
+2025-05-27 06:08:54,090 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c
+2025-05-27 06:08:54,097 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h_save
+2025-05-27 06:08:54,136 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h
+2025-05-27 06:08:54,146 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c_save
+2025-05-27 06:08:54,191 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c
+2025-05-27 06:08:54,202 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-27 06:08:54,308 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-27 06:08:54,313 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-27 06:08:54,355 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-27 06:08:54,367 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-27 06:08:54,421 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-27 06:08:54,424 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-27 06:08:54,461 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-27 06:08:54,469 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-27 06:08:54,512 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-27 06:08:54,521 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-27 06:08:54,525 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-27 06:08:54,525 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-27 06:08:54,525 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-27 06:08:54,531 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-27 06:08:54,583 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-27 06:08:54,587 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-27 06:08:54,673 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-27 06:08:55,287 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 399mS.
+2025-05-27 06:08:55,299 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-27 06:08:55,383 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-27 06:08:57,963 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 2664mS.
+2025-05-27 06:08:57,964 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-27 06:08:57,975 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-27 06:09:02,428 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-27 06:09:08,723 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 939012064 Bytes (1073741824)
+2025-05-27 06:09:09,911 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 956837856 Bytes (1073741824)
+2025-05-27 06:09:11,583 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1008828744 Bytes (1073741824)
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SEQUENCER
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: STM32_WPAN
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8WB5
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_Device
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-27 06:09:11,796 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-27 06:09:11,797 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-27 06:09:11,797 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-27 06:09:11,797 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-27 06:09:11,797 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-27 06:09:11,797 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TINY_LPM
+2025-05-27 06:09:11,798 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-27 06:09:11,851 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:09:11,856 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:09:11,860 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:09:11,863 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 06:09:11,968 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-27 06:09:12,027 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-27 06:09:12,069 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c_save
+2025-05-27 06:09:12,116 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c
+2025-05-27 06:09:12,120 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h_save
+2025-05-27 06:09:12,160 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h
+2025-05-27 06:09:12,231 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp_save
+2025-05-27 06:09:12,269 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp
+2025-05-27 06:09:12,271 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp_save
+2025-05-27 06:09:12,310 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp
+2025-05-27 06:09:12,313 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp_save
+2025-05-27 06:09:12,359 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp
+2025-05-27 06:09:12,363 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp_save
+2025-05-27 06:09:12,413 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp
+2025-05-27 06:09:12,539 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-27 06:09:12,540 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-27 06:09:12,582 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-27 06:09:13,041 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:09:13,063 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:09:13,069 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c_save
+2025-05-27 06:09:13,127 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c
+2025-05-27 06:09:13,130 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h_save
+2025-05-27 06:09:13,172 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h
+2025-05-27 06:09:13,179 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c_save
+2025-05-27 06:09:13,233 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c
+2025-05-27 06:09:13,236 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h_save
+2025-05-27 06:09:13,276 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h
+2025-05-27 06:09:13,283 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c_save
+2025-05-27 06:09:13,337 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c
+2025-05-27 06:09:13,339 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h_save
+2025-05-27 06:09:13,383 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h
+2025-05-27 06:09:13,389 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c_save
+2025-05-27 06:09:13,448 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c
+2025-05-27 06:09:13,451 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h_save
+2025-05-27 06:09:13,496 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h
+2025-05-27 06:09:13,503 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c_save
+2025-05-27 06:09:13,561 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c
+2025-05-27 06:09:13,565 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h_save
+2025-05-27 06:09:13,608 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h
+2025-05-27 06:09:13,615 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c_save
+2025-05-27 06:09:13,674 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c
+2025-05-27 06:09:13,679 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h_save
+2025-05-27 06:09:13,739 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h
+2025-05-27 06:09:13,758 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:09:13,781 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h_save
+2025-05-27 06:09:13,823 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h
+2025-05-27 06:09:13,826 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h_save
+2025-05-27 06:09:13,870 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h
+2025-05-27 06:09:13,873 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h_save
+2025-05-27 06:09:13,981 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h
+2025-05-27 06:09:13,985 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h_save
+2025-05-27 06:09:14,028 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h
+2025-05-27 06:09:14,032 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h_save
+2025-05-27 06:09:14,082 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h
+2025-05-27 06:09:14,085 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h_save
+2025-05-27 06:09:14,127 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h
+2025-05-27 06:09:14,132 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h_save
+2025-05-27 06:09:14,176 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h
+2025-05-27 06:09:14,182 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h_save
+2025-05-27 06:09:14,224 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h
+2025-05-27 06:09:14,228 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c_save
+2025-05-27 06:09:14,282 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c
+2025-05-27 06:09:14,286 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c_save
+2025-05-27 06:09:14,333 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c
+2025-05-27 06:09:14,336 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c_save
+2025-05-27 06:09:14,384 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c
+2025-05-27 06:09:14,388 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c_save
+2025-05-27 06:09:14,440 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c
+2025-05-27 06:09:14,444 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c_save
+2025-05-27 06:09:14,579 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c
+2025-05-27 06:09:14,583 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h_save
+2025-05-27 06:09:14,625 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h
+2025-05-27 06:09:14,629 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h_save
+2025-05-27 06:09:14,673 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h
+2025-05-27 06:09:14,676 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h_save
+2025-05-27 06:09:14,720 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h
+2025-05-27 06:09:14,723 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h_save
+2025-05-27 06:09:14,767 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h
+2025-05-27 06:09:14,770 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h_save
+2025-05-27 06:09:14,812 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h
+2025-05-27 06:09:14,816 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c_save
+2025-05-27 06:09:15,897 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c
+2025-05-27 06:09:15,901 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h_save
+2025-05-27 06:09:16,051 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h
+2025-05-27 06:09:16,054 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c_save
+2025-05-27 06:09:16,216 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c
+2025-05-27 06:09:16,219 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h_save
+2025-05-27 06:09:16,257 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h
+2025-05-27 06:09:16,262 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c_save
+2025-05-27 06:09:16,304 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c
+2025-05-27 06:09:16,313 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\tim.c_save
+2025-05-27 06:09:16,374 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\tim.c
+2025-05-27 06:09:16,379 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\tim.h_save
+2025-05-27 06:09:16,420 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\tim.h
+2025-05-27 06:09:16,427 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 06:09:16,434 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c_save
+2025-05-27 06:09:16,490 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c
+2025-05-27 06:09:16,494 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h_save
+2025-05-27 06:09:16,538 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h
+2025-05-27 06:09:16,541 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h_save
+2025-05-27 06:09:16,586 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h
+2025-05-27 06:09:16,590 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c_save
+2025-05-27 06:09:16,640 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c
+2025-05-27 06:09:16,645 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h_save
+2025-05-27 06:09:16,689 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h
+2025-05-27 06:09:16,692 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c_save
+2025-05-27 06:09:16,737 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c
+2025-05-27 06:09:16,741 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h_save
+2025-05-27 06:09:16,800 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h
+2025-05-27 06:09:16,803 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c_save
+2025-05-27 06:09:16,846 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c
+2025-05-27 06:09:16,855 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-27 06:09:16,907 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-27 06:09:16,911 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-27 06:09:16,951 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-27 06:09:16,959 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-27 06:09:17,015 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-27 06:09:17,019 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-27 06:09:17,070 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-27 06:09:17,078 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-27 06:09:17,130 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-27 06:09:17,141 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-27 06:09:17,147 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-27 06:09:17,147 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-27 06:09:17,147 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-27 06:09:17,154 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-27 06:09:17,212 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-27 06:09:17,216 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-27 06:09:17,292 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-27 06:09:17,727 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 233mS.
+2025-05-27 06:09:17,735 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-27 06:09:17,801 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-27 06:09:18,838 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1103mS.
+2025-05-27 06:09:18,839 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-27 06:09:18,851 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-27 10:25:28,579 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 936282984 Bytes (1073741824)
+2025-05-27 10:25:29,976 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 953679176 Bytes (1073741824)
+2025-05-27 10:25:32,053 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1027508848 Bytes (1073741824)
+2025-05-27 10:25:32,378 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SEQUENCER
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: STM32_WPAN
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: HSEM
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_Device
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IPCC
+2025-05-27 10:25:32,379 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-05-27 10:25:32,380 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-05-27 10:25:32,380 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-27 10:25:32,380 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-27 10:25:32,380 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RF
+2025-05-27 10:25:32,381 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-05-27 10:25:32,381 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TINY_LPM
+2025-05-27 10:25:32,382 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-05-27 10:25:32,446 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 10:25:32,451 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 10:25:32,456 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 10:25:32,459 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-05-27 10:25:32,635 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp_save
+2025-05-27 10:25:32,934 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\license.tmp
+2025-05-27 10:25:33,004 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c_save
+2025-05-27 10:25:33,151 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\gpio.c
+2025-05-27 10:25:33,157 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h_save
+2025-05-27 10:25:33,252 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\gpio.h
+2025-05-27 10:25:33,363 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp_save
+2025-05-27 10:25:33,459 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_vars.tmp
+2025-05-27 10:25:33,461 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp_save
+2025-05-27 10:25:33,541 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_inc.tmp
+2025-05-27 10:25:33,545 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp_save
+2025-05-27 10:25:33,647 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_HalInit.tmp
+2025-05-27 10:25:33,650 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp_save
+2025-05-27 10:25:33,750 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\usb_Msp.tmp
+2025-05-27 10:25:33,875 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-05-27 10:25:33,876 [WARN] IP:2250 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-05-27 10:25:33,918 [WARN] IPConfigManager:103 - WARNING: Missing Config File for RF ip!!
+2025-05-27 10:25:34,327 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 10:25:34,368 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 10:25:34,384 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c_save
+2025-05-27 10:25:34,514 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\i2c.c
+2025-05-27 10:25:34,520 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h_save
+2025-05-27 10:25:34,597 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\i2c.h
+2025-05-27 10:25:34,612 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c_save
+2025-05-27 10:25:34,714 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\ipcc.c
+2025-05-27 10:25:34,721 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h_save
+2025-05-27 10:25:34,795 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\ipcc.h
+2025-05-27 10:25:34,809 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c_save
+2025-05-27 10:25:34,883 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\memorymap.c
+2025-05-27 10:25:34,889 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h_save
+2025-05-27 10:25:34,938 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\memorymap.h
+2025-05-27 10:25:34,947 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c_save
+2025-05-27 10:25:35,012 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rf.c
+2025-05-27 10:25:35,015 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h_save
+2025-05-27 10:25:35,070 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rf.h
+2025-05-27 10:25:35,078 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c_save
+2025-05-27 10:25:35,150 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\rtc.c
+2025-05-27 10:25:35,154 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h_save
+2025-05-27 10:25:35,197 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\rtc.h
+2025-05-27 10:25:35,207 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c_save
+2025-05-27 10:25:35,281 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\spi.c
+2025-05-27 10:25:35,290 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h_save
+2025-05-27 10:25:35,347 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\spi.h
+2025-05-27 10:25:35,376 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 10:25:35,406 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h_save
+2025-05-27 10:25:35,457 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_common.h
+2025-05-27 10:25:35,462 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h_save
+2025-05-27 10:25:35,510 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_debug.h
+2025-05-27 10:25:35,517 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h_save
+2025-05-27 10:25:35,640 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_conf.h
+2025-05-27 10:25:35,647 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h_save
+2025-05-27 10:25:35,699 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\app_entry.h
+2025-05-27 10:25:35,706 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h_save
+2025-05-27 10:25:35,762 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_conf.h
+2025-05-27 10:25:35,768 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h_save
+2025-05-27 10:25:35,826 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\hw_if.h
+2025-05-27 10:25:35,831 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h_save
+2025-05-27 10:25:35,877 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\utilities_conf.h
+2025-05-27 10:25:35,883 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h_save
+2025-05-27 10:25:35,932 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32_lpm_if.h
+2025-05-27 10:25:35,938 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c_save
+2025-05-27 10:25:35,996 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_entry.c
+2025-05-27 10:25:36,000 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c_save
+2025-05-27 10:25:36,058 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\app_debug.c
+2025-05-27 10:25:36,063 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c_save
+2025-05-27 10:25:36,115 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\hw_timerserver.c
+2025-05-27 10:25:36,120 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c_save
+2025-05-27 10:25:36,166 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32_lpm_if.c
+2025-05-27 10:25:36,175 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c_save
+2025-05-27 10:25:36,346 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.c
+2025-05-27 10:25:36,353 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h_save
+2025-05-27 10:25:36,410 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\app_ble.h
+2025-05-27 10:25:36,417 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h_save
+2025-05-27 10:25:36,470 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_conf.h
+2025-05-27 10:25:36,477 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h_save
+2025-05-27 10:25:36,526 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\ble_dbg_conf.h
+2025-05-27 10:25:36,531 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h_save
+2025-05-27 10:25:36,575 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\tl_dbg_conf.h
+2025-05-27 10:25:36,581 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h_save
+2025-05-27 10:25:36,623 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\template_server_app.h
+2025-05-27 10:25:36,629 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c_save
+2025-05-27 10:25:37,846 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.c
+2025-05-27 10:25:37,854 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h_save
+2025-05-27 10:25:38,030 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_stm.h
+2025-05-27 10:25:38,037 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c_save
+2025-05-27 10:25:38,218 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.c
+2025-05-27 10:25:38,222 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h_save
+2025-05-27 10:25:38,265 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\App\custom_app.h
+2025-05-27 10:25:38,268 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c_save
+2025-05-27 10:25:38,314 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32_WPAN\Target\hw_ipcc.c
+2025-05-27 10:25:38,323 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-05-27 10:25:38,331 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c_save
+2025-05-27 10:25:38,391 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.c
+2025-05-27 10:25:38,395 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h_save
+2025-05-27 10:25:38,439 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usb_device.h
+2025-05-27 10:25:38,442 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h_save
+2025-05-27 10:25:38,483 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.h
+2025-05-27 10:25:38,489 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c_save
+2025-05-27 10:25:38,539 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\Target\usbd_conf.c
+2025-05-27 10:25:38,543 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h_save
+2025-05-27 10:25:38,585 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.h
+2025-05-27 10:25:38,589 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c_save
+2025-05-27 10:25:38,632 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_desc.c
+2025-05-27 10:25:38,637 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h_save
+2025-05-27 10:25:38,680 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.h
+2025-05-27 10:25:38,683 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c_save
+2025-05-27 10:25:38,728 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\USB_Device\App\usbd_cdc_if.c
+2025-05-27 10:25:38,740 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c_save
+2025-05-27 10:25:38,855 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_it.c
+2025-05-27 10:25:38,860 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h_save
+2025-05-27 10:25:38,910 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_it.h
+2025-05-27 10:25:38,922 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c_save
+2025-05-27 10:25:39,006 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\stm32wbxx_hal_msp.c
+2025-05-27 10:25:39,010 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp_save
+2025-05-27 10:25:39,068 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\MXTmpFiles\system.tmp
+2025-05-27 10:25:39,079 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-05-27 10:25:39,144 [INFO] CodeEngine:343 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\stm32wbxx_hal_conf.h
+2025-05-27 10:25:39,160 [WARN] IPConfigManager:3174 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-05-27 10:25:39,166 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-05-27 10:25:39,166 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-05-27 10:25:39,167 [ERROR] ApiDbMcu:536 - Cannot parse RF_Config file : file do not exist
+2025-05-27 10:25:39,178 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h_save
+2025-05-27 10:25:39,252 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Inc\main.h
+2025-05-27 10:25:39,259 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c_save
+2025-05-27 10:25:39,361 [INFO] CodeEngine:287 - Generated code: C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\Core\Src\main.c
+2025-05-27 10:25:39,877 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 313mS.
+2025-05-27 10:25:39,885 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-05-27 10:25:39,951 [INFO] ConfigFileManager:1590 - The Die is : DIE495
+2025-05-27 10:25:41,499 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1613mS.
+2025-05-27 10:25:41,500 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-27 10:25:41,516 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-27 12:05:01,505 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:05:01,550 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:05:01,563 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:05:01,574 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:05:01,582 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:09:50,088 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:09:50,113 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:09:50,126 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:09:50,137 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-05-27 12:09:50,143 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
