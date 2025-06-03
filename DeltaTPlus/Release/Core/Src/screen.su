@@ -6,8 +6,8 @@
 ../Core/Src/screen.c:199:6:LCD_EnterSleep	8	static
 ../Core/Src/screen.c:209:6:LCD_ExitSleep	8	static
 ../Core/Src/screen.c:223:6:LCD_SetWindow	24	static
-../Core/Src/screen.c:244:6:LCD_FillScreen	24	static
-../Core/Src/screen.c:266:6:LCD_DrawPixel	16	static
-../Core/Src/screen.c:282:6:LCD_FillRect	24	static
-../Core/Src/screen.c:311:10:LCD_RGB565	0	static
-../Core/Src/screen.c:317:6:LCD_BasicCommTest	8	static
+../Core/Src/screen.c:244:6:LCD_FillScreen	1040	static
+../Core/Src/screen.c:272:6:LCD_DrawPixel	16	static
+../Core/Src/screen.c:288:6:LCD_FillRect	24	static
+../Core/Src/screen.c:317:10:LCD_RGB565	0	static
+../Core/Src/screen.c:323:6:LCD_BasicCommTest	8	static

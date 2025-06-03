@@ -1,0 +1,7 @@
+2025-06-01 04:00:49,887 [INFO] WebApp:191 - Connection restablished
+2025-06-01 04:00:52,884 [INFO] WebApp:194 - Connection lost
+2025-06-01 04:00:52,981 [INFO] WebApp:191 - Connection restablished
+2025-06-01 05:48:57,122 [INFO] I2cTimingTraitement:330 - 0x00B07CB4
+2025-06-01 06:04:53,182 [INFO] CtxDoc:743 - title: SEQUENCER; link: AN2639
+2025-06-01 06:04:53,193 [ERROR] CtxDoc:896 - CtxDoc : File type not supported, try to open with default browser!
+2025-06-01 22:00:16,318 [INFO] WebApp:194 - Connection lost

@@ -1,0 +1,19 @@
+2025-06-02 04:00:49,347 [INFO] WebApp:191 - Connection restablished
+2025-06-02 04:00:52,561 [INFO] WebApp:194 - Connection lost
+2025-06-02 04:00:52,678 [INFO] WebApp:191 - Connection restablished
+2025-06-02 12:58:06,180 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,185 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,191 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,199 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,458 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,465 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,470 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:06,475 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,716 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,718 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,720 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,722 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,794 [WARN] IP:2250 - SERVICE2_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,796 [WARN] IP:2250 - SERVICE3_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,799 [WARN] IP:2250 - SERVICE4_UUID not found: check if there is a RefParameter without a condition.
+2025-06-02 12:58:16,801 [WARN] IP:2250 - SERVICE5_UUID not found: check if there is a RefParameter without a condition.

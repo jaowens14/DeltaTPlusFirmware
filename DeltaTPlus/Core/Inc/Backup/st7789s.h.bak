@@ -14,7 +14,7 @@
 // GPIO Pin definitions
 #define LCD_CS_PIN    GPIO_PIN_3
 #define LCD_CS_PORT   GPIOA
-#define LCD_DC_PIN    GPIO_PIN_3   // Data/Command (RS in original code)
+#define LCD_DC_PIN    GPIO_PIN_2   // Data/Command (RS in original code)
 #define LCD_DC_PORT   GPIOA
 #define LCD_RST_PIN   GPIO_PIN_1   // Reset
 #define LCD_RST_PORT  GPIOA
