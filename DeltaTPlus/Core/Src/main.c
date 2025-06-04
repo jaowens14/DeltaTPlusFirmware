@@ -30,7 +30,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "usbd_cdc_if.h"
+#include "usbd_cdc_if.h"
 #include "st7789s.h"
 /* USER CODE END Includes */
 
@@ -113,11 +113,109 @@ uint16_t timer_val;
   MX_USB_Device_Init();
   MX_RF_Init();
   /* USER CODE BEGIN 2 */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
 
+  HAL_Delay(2000);
+
+
+
+      #define FT5436_ADDR   (0x38 << 1)
+
+      uint8_t treg = 0x03;
+      uint8_t tdata[4];
+      char tmsg[64];
+
+      HAL_StatusTypeDef tstatus = HAL_I2C_Mem_Read(
+          &hi2c1,
+          FT5436_ADDR,
+          treg,
+          I2C_MEMADD_SIZE_8BIT,
+          tdata,
+          4,
+          1000
+      );
+
+
+          uint16_t tx = ((tdata[0] & 0x0F) << 8) | tdata[1];
+          uint16_t ty = ((tdata[2] & 0x0F) << 8) | tdata[3];
+          snprintf(tmsg, sizeof(tmsg), "Touch X: %u, Y: %u\r\n", tx, ty);
+
+
+      CDC_Transmit_FS((uint8_t*)tmsg, strlen(tmsg));
+
+
+
+
+
+
+  HAL_Delay(2000);
+
+#define ADXL343_ADDR    (0x53 << 1)   // Correct 8-bit address for grounded ALT_ADDRESS
+
+// 1. Initialize ADXL343 first (do this once during setup)
+    uint8_t powerCtl = 0x08;  // Set MEASURE bit (Bit 3) to enable measurement mode
+    HAL_I2C_Mem_Write(&hi2c1, ADXL343_ADDR, 0x2D, I2C_MEMADD_SIZE_8BIT, &powerCtl, 1, 1000);
+
+    HAL_Delay(20);
+
+    uint8_t accreg = 0x32;          // Start from DATAX0
+    uint8_t accdata[6];
+    char accmsg[64];
+
+    // Read with error handling
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c1, ADXL343_ADDR, accreg,
+                                              I2C_MEMADD_SIZE_8BIT, accdata, 6, 1000);
+
+    if(status == HAL_OK) {
+        // Convert raw data to signed values
+        int16_t x = (int16_t)((accdata[1] << 8) | accdata[0]);
+        int16_t y = (int16_t)((accdata[3] << 8) | accdata[2]);
+        int16_t z = (int16_t)((accdata[5] << 8) | accdata[4]);
+
+        // Convert to g-force (assuming ±2g range, 10-bit resolution)
+        float x_g = x * 0.0039f;  // 4mg/LSB
+        float y_g = y * 0.0039f;
+        float z_g = z * 0.0039f;
+
+        snprintf(accmsg, sizeof(accmsg), "X: %.2fg, Y: %.2fg, Z: %.2fg\r\n", x_g, y_g, z_g);
+    } else {
+        snprintf(accmsg, sizeof(accmsg), "I2C Error: %d\r\n", status);
+    }
+
+    // Check if USB CDC is ready before transmitting
+    if(CDC_Transmit_FS((uint8_t*)accmsg, strlen(accmsg)) != USBD_OK) {
+        // Handle USB transmission failure
+    }
+
+
+
+
+  HAL_Delay(2000);
+
+  #define MAX17048_ADDR    (0x36 << 1)   // STM32 HAL expects 8-bit address
+
+
+  uint8_t reg = 0x02;        // VCELL register address
+  uint8_t data[2] = {0};     // To store register data
+
+  if (HAL_I2C_Mem_Read(&hi2c1, MAX17048_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 2, 1000) == HAL_OK) {
+      // Successfully read data[0] and data[1]
+      uint16_t vcell_raw = (data[0] << 8) | data[1];
+      vcell_raw >>= 4; // VCELL is 12 bits (upper 12 bits of 16)
+      float voltage = vcell_raw * 1.25f / 1000.0f; // Each LSB = 1.25mV
+
+      char msg[64];
+      snprintf(msg, sizeof(msg), "VCELL: %.3f V\r\n", voltage);
+      CDC_Transmit_FS((uint8_t*)msg, strlen(msg)); // If using USB CDC
+  } else {
+      char msg[] = "I2C Read Error\r\n";
+      CDC_Transmit_FS((uint8_t*)msg, strlen(msg));
+  }
+
+  HAL_Delay(2000);
   //HAL_Delay(2000);
-  //snprintf(buff, sizeof(buff), "Hello world\r\n");
-  //CDC_Transmit_FS((uint8_t*)buff, strlen(buff));
+  snprintf(buff, sizeof(buff), "Hello world\r\n");
+  CDC_Transmit_FS((uint8_t*)buff, strlen(buff));
   //LCD_BasicCommTest(); // Just wake up display
 
 

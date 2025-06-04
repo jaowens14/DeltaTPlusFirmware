@@ -1,10 +1,10 @@
-18:42:47 **** Incremental Build of configuration Debug for project DeltaTPlus ****
+06:39:10 **** Incremental Build of configuration Release for project DeltaTPlus ****
 make -j12 all 
 arm-none-eabi-size  DeltaTPlus.elf 
    text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
+  57084	   2989	  12763	  72836	  11c84	DeltaTPlus.elf
 Finished building: default.size.stdout
  
 
-18:42:48 Build Finished. 0 errors, 0 warnings. (took 469ms)
+06:39:10 Build Finished. 0 errors, 0 warnings. (took 339ms)
 

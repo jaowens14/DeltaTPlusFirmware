@@ -1,77 +1,38 @@
-10:06:36 **** Incremental Build of configuration Release for project DeltaTPlus ****
+06:38:37 **** Incremental Build of configuration Release for project DeltaTPlus ****
 make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -I../STM32_WPAN/App -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:25: warning: unused variable 'tstatus' [-Wunused-variable]
+  128 |       HAL_StatusTypeDef tstatus = HAL_I2C_Mem_Read(
+      |                         ^~~~~~~
+../Core/Src/main.c:80:10: warning: unused variable 'timer_val' [-Wunused-variable]
+   80 | uint16_t timer_val;
+      |          ^~~~~~~~~
+../Core/Src/main.c:79:5: warning: unused variable 'buff_len' [-Wunused-variable]
+   79 | int buff_len;
+      |     ^~~~~~~~
+arm-none-eabi-g++ -o "DeltaTPlus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jaowe\Documents\Projects\DeltaTPlusFirmware\DeltaTPlus\STM32WB55CGUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DeltaTPlus.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: DeltaTPlus.elf
+ 
 arm-none-eabi-size  DeltaTPlus.elf 
+arm-none-eabi-objdump -h -S DeltaTPlus.elf  > "DeltaTPlus.list"
    text	   data	    bss	    dec	    hex	filename
-  53868	   2989	  12763	  69620	  10ff4	DeltaTPlus.elf
+  57084	   2989	  12763	  72836	  11c84	DeltaTPlus.elf
 Finished building: default.size.stdout
  
-10:08:02 **** Incremental Build of configuration Debug for project DeltaTPlus ****
+Finished building: DeltaTPlus.list
+ 
+06:38:40 **** Incremental Build of configuration Release for project DeltaTPlus ****
 make -j12 all 
 arm-none-eabi-size  DeltaTPlus.elf 
    text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
+  57084	   2989	  12763	  72836	  11c84	DeltaTPlus.elf
 Finished building: default.size.stdout
  
-10:32:56 **** Incremental Build of configuration Debug for project DeltaTPlus ****
+06:39:10 **** Incremental Build of configuration Release for project DeltaTPlus ****
 make -j12 all 
 arm-none-eabi-size  DeltaTPlus.elf 
    text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-11:49:58 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-11:50:34 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-12:56:17 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-13:12:34 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-13:13:01 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-13:42:13 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-13:47:17 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
-Finished building: default.size.stdout
- 
-18:42:47 **** Incremental Build of configuration Debug for project DeltaTPlus ****
-make -j12 all 
-arm-none-eabi-size  DeltaTPlus.elf 
-   text	   data	    bss	    dec	    hex	filename
-  82448	   2629	  12779	  97856	  17e40	DeltaTPlus.elf
+  57084	   2989	  12763	  72836	  11c84	DeltaTPlus.elf
 Finished building: default.size.stdout
  
